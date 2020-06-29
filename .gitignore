@@ -1,0 +1,53 @@
+examples/env/*
+!examples/env/README.md
+
+# Tensorflow Model Info
+examples/models/*
+summaries/
+logs/
+!examples/models/self_control_curriculum_pre_trained/
+
+# Environemnt logfile
+*Project.log
+
+# Builds
+*.apk
+*.unitypackage
+*.app
+*.exe
+*.x86_64
+*.x86
+
+# Mac hidden files
+*.DS_Store
+*/.ipynb_checkpoints
+*/.idea
+*.pyc
+*.idea/misc.xml
+*.idea/modules.xml
+*.idea/
+*.iml
+*.cache
+*/build/
+*/dist/
+*.egg-info*
+*.eggs*
+*.gitignore.swp
+
+# VSCode hidden files
+*.vscode/
+
+.DS_Store
+.ipynb_checkpoints
+
+# pytest cache
+*.pytest_cache/
+
+# Ignore PyPi build files.
+dist/
+build/
+
+# Python virtual environment
+venv/
+.mypy_cache/
+
